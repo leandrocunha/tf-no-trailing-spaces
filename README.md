@@ -1,0 +1,1 @@
+# tf-no-trailing-spaces
