@@ -1,17 +1,18 @@
 {
-	"name": "lsp-sample",
-	"description": "A language server example",
-	"author": "Microsoft Corporation",
+	"name": "tf-no-trailing-spaces",
+	"description": "A simple trailing spaces highlighter for the Terraform files.",
+	"author": "Leandro Cunha",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/leandrocunha/tf-no-trailing-spaces"
 	},
-	"publisher": "vscode-samples",
+	"publisher": "leandrocunha",
 	"categories": [],
 	"keywords": [
-		"multi-root ready"
+		"terraform",
+		"syntax highlighter"
 	],
 	"engines": {
 		"vscode": "^1.75.0"
