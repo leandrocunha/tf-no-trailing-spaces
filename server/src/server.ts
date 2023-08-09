@@ -15,6 +15,7 @@ import {
   TextDocumentPositionParams,
   TextDocumentSyncKind,
   InitializeResult,
+  TextDocumentChangeEvent,
 } from "vscode-languageserver/node";
 
 import { TextDocument } from "vscode-languageserver-textdocument";
@@ -131,7 +132,7 @@ documents.onDidClose((e) => {
 
 // The content of a text document has changed. This event is emitted
 // when the text document first opened or when its content has changed.
-documents.onDidChangeContent((change) => {
+documents.onDidChangeContent((change: TextDocumentChangeEvent<TextDocument>) => {
   validateTextDocument(change.document);
 });
 
