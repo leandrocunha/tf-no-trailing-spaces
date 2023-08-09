@@ -4,7 +4,7 @@
 	"description": "A simple trailing spaces highlighter for the Terraform files.",
 	"author": "Leandro Cunha",
 	"license": "MIT",
-	"version": "0.0.3.",
+	"version": "0.0.3",
 	"icon": "assets/tf-no-trailing-spaces-logo.png",
 	"repository": {
 		"type": "git",
